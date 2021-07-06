@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+
+<link rel="stylesheet" href="index.html">
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <!--title icon-->
+    <link rel="icon" href="CSS/profile/icons8-r-100.png" sizes="16x16">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-head">
+
+            <a href="">
+                <h2>Money Saver</h2>
+            </a>
+        </div>
+        <div class="navbar-left">
+            <a href="index.html">Home</a>
+            <a href="">About us</a>
+            <a href="">Investment</a>
+            <a href="">Insurance</a>
+            <a href="">Real Estate</a>
+            <a href="">Contact us</a>
+        </div>
+
+    </div>
+    <div class="contact-head">
+        <h1>We'd love to hear from you</h1>
+        <p>Whether you have a question about features, pricing, need a demo, or anything else</p>
+        <p>Fill out the form and we'll be in touch as soon as possible</p>
+        <button class="btn-touch" id="btn-1" onclick="scrollToTop()">get in touch</button>
+    </div>
+    <div class="form-div">
+        <form action="CSS/thank.html" onsubmit="return validate()" id="form-id">
+            <h2>Get in touch with us</h2>
+            <input type="text" placeholder="first name" id="fname">
+            <input type="text" placeholder="last name" id="lname">
+            <p>
+                <input type="email" name="" class="items" placeholder="email" size="50" id="email-id">
+            </p>
+            <p> <input type="text" placeholder="type of query" class="items" size="50"></p>
+            <p> <input type="tel" name="" class="items" placeholder="Phone Number" size="50" id="mobno"></p>
+            <p> <textarea id="query" rows="6" cols="45">write message
+
+        </textarea></p>
+
+            <button type="submit" class="btn-touch">submit</button>
+
+        </form>
+    </div>
+
+    <div class="profile">
+        <div>
+            <a href="https://github.com/Ruthik9">
+                <img src="CSS/profile/github.png" alt=""></a>
+        </div>
+        <div>
+            <a href="https://instagram.com/_ritik_salvi">
+                <img src="CSS/profile/instagram-logo.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/ruthik-salvi-508145201">
+                <img src="CSS/profile/linkedin.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="mailto:ruthiksalvi11@example.com">
+                <img src="CSS/profile/env.png" alt=""></a>
+        </div>
+
+    </div>
+    <div id="map">
+        <div>
+
+            <iframe class="position"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.218949112482!2d72.85009631499707!3d19.185636987025056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDExJzA4LjMiTiA3MsKwNTEnMDguMiJF!5e0!3m2!1sen!2sin!4v1623827735974!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="address">
+            <h2>Address</h2>
+            <p>Shop No 5, Murarka Lane, Podar Road,</p>
+            <p> Malad East, Mumbai - 400 097</p>
+            <h2>Email</h2>
+            <p>ruthiksalvi11@gmail.com</p>
+            <p>rsalvi123456@gmail.com</p>
+            <h2>Call</h2>
+            <p>Ruthik Salvi</p>
+            <p>+91 8369714682</p>
+        </div>
+    </div>
+
+
+    <div class="footer-class">
+        <div class="footer-items">
+            <h2>About Us</h2>
+            <p>At Moneysavers.co.in, partnered by</p>
+            <p>Riddhi Shah and Jimit Shah we are</p>
+            <p>committed towards one singular</p>
+            <p>motive of multiplying our client’s</p>
+            <p>wealth and reaping the optimal</p>
+            <p>benefits of the stock market.</p>
+        </div>
+        <div class="footer-items">
+            <h2>Quick Links</h2>
+            <a href="index.html">Home</a>
+            <a href="">About us</a>
+            <a href="">Investment</a>
+            <a href="">Insurance</a>
+            <a href="">Real Estate</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+
+        <div class="footer-items">
+            <h2>Contact Us</h2>
+            <p>Shop No 5, Murarka Lane, Podar Road,</p>
+            <p> Malad East, Mumbai - 400 097</p>
+            <p>+91 8369714682</p>
+        </div>
+
+        <p id="last-line"></p>
+
+        <img src="CSS/profile/arrow-up-solid.svg" alt="" class="arrow" onclick="scrollxyz()">
+    </div>
+</body>
+
+<script src="contact.js"></script>
+</html>

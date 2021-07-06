@@ -1,0 +1,190 @@
+@media screen and (min-width:400px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Noto Sans JP', sans-serif;
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        padding: 0 50px;
+        justify-content: space-evenly;
+    }
+    .navbar-head {
+        font-size: 20px;
+        transition: .7s;
+    }
+    .navbar-head:hover {
+        transform: scale(1.1);
+    }
+    .navbar-head>a {
+        text-decoration: none;
+        color: black;
+    }
+    .contact:focus {
+        color: black;
+        opacity: 1;
+    }
+    .navbar-left>a {
+        font-size: 20px;
+        display: inline-block;
+        padding: 36px 25px;
+        text-decoration: none;
+        color: black;
+        opacity: .4;
+        transition: 1s;
+    }
+    .navbar-left>a:hover {
+        opacity: 1;
+        text-decoration: underline;
+    }
+    .contact:active {
+        color: black;
+    }
+    .carousel-caption>p {
+        line-height: 0.5;
+        position: relative;
+        top: -200px;
+        font-weight: 500;
+    }
+    .carousel-caption h2 {
+        position: relative;
+        top: -200px;
+        margin-bottom: 30px;
+    }
+    hr {
+        background-color: rgb(13, 130, 184);
+        height: 2px;
+        border: 0;
+    }
+    .right-overview p, h3 {
+        text-align: center;
+    }
+    .right-overview>p {
+        line-height: 0.5;
+        margin-top: 30px;
+    }
+    .overview {
+        display: flex;
+        justify-content: space-evenly;
+        height: 800px;
+        margin-top: 50px;
+    }
+    .img-overview {
+        display: inline-block;
+    }
+    .contact-head {
+        text-align: center;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        height: 250px;
+    }
+    .contact-head>h1 {
+        line-height: -0.5;
+        padding-top: 35px;
+        margin: 10px 0;
+    }
+    .btn-touch {
+        background-color: royalblue;
+        color: white;
+        padding: 13px 16px;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        border-radius: 23px;
+        transition: .5s;
+    }
+    .btn-touch:hover {
+        transform: scale(1.1);
+    }
+    #form-id {
+        text-align: center;
+    }
+    input[type] {
+        padding: 13px 15px;
+    }
+    input[type], #query:focus {
+        outline: none;
+    }
+    .footer-class {
+        position: relative;
+        bottom: -10px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #00233d;
+        height: 400px;
+        color: white;
+        margin: 10px 0;
+    }
+    .footer-items>a {
+        display: block;
+        color: white;
+        padding: 5px 0;
+        text-decoration: none;
+    }
+    .footer-items {
+        margin-top: 45px;
+    }
+    #last-line {
+        position: absolute;
+        bottom: 5px;
+    }
+    .position {
+        width: 800px;
+        height: 25rem;
+        margin: 30px 0;
+        box-shadow: 5px 5px 15px 5px #888888
+    }
+    .position, .address {
+        margin-top: 65px;
+    }
+    .address {
+        position: relative;
+        right: 65px;
+        top:-15px
+    }
+    #map {
+        height: 570px;
+        margin-top: 170px;
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f8f8f8;
+          
+    }
+    .profile {
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .profile div {
+        display: inline-block;
+        padding: 12px 15px;
+        margin: 0 10px;
+        background-color: rgb(232, 232, 232);
+        border-radius: 50%;
+    }
+    .profile img {
+        width: 40px;
+        height: 40px;
+    }
+    .arrow {
+        width: 50px;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        cursor: pointer;
+    }
+
+.footer-items > a:hover{
+    color: rgb(182, 44, 67);
+}
+
+
+
+}
